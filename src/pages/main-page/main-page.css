@@ -1,0 +1,112 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.main__text {
+    padding-left: 50px;
+    font-size: 24px;
+    margin: 0;
+}
+.list {
+  width: 400px;
+  height: 70vh;
+  padding-left: 20px;
+  padding-right: 2px;
+  padding-bottom: 3px;
+  border: 1px solid rgb(192, 189, 189);
+}
+.user {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+.user:hover {
+  cursor: pointer;
+  background-color: aqua;
+}
+.user__img {
+  width: 25px;
+  height: 25px;
+}
+.user__text {
+  font-size: 18px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 600px;
+}
+
+.info__top {
+  background-color: aqua;
+  height: 40px;
+  width: 100%;
+ 
+}
+
+.info__top_div {
+  border: 1px solid blue;
+  margin: 5px;
+  height: 30px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+.info__top_text {
+  padding-left: 5px;
+  box-sizing: border-box;
+}
+.form {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 15px;
+    padding-left: 30px;
+
+}
+.form__img {
+    border-radius: 50%;
+    border: 3px solid grey;
+    width: 100%;
+    height: auto;
+}
+
+.form__box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.form__button {
+    background-color: aqua;
+    border-radius: 6px;
+    border: none;
+    padding:8px 15px;
+    margin: 15px;
+    box-sizing: border-box;
+}
+.form__button:hover {
+    cursor: pointer;
+    background-color: rgb(0, 255, 200);
+}
+.form__box_div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+.form__box_label {
+    width: 75px;
+}
+.form__box_input {
+    width: 100%;
+}
+.error {
+    color: red;
+}
